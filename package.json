@@ -1,0 +1,53 @@
+{
+  "name": "@mambalabsdev/mcp-youtube-keyword-suggestions",
+  "version": "1.0.0",
+  "description": "MCP server for YouTube Keyword Suggestions: YouTube autocomplete keyword research with A to Z expansion.",
+  "type": "module",
+  "bin": {
+    "mcp-youtube-keyword-suggestions": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "youtube",
+    "keyword-research",
+    "autocomplete",
+    "seo",
+    "video-seo",
+    "scraper",
+    "apify",
+    "mcp",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/youtube-keyword-suggestions",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-youtube-keyword-suggestions"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-youtube-keyword-suggestions"
+}

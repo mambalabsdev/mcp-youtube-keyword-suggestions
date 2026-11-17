@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-youtube-keyword-suggestions": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-youtube-keyword-suggestions"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}

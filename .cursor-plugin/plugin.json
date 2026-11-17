@@ -1,0 +1,37 @@
+{
+  "name": "mcp-youtube-keyword-suggestions",
+  "displayName": "YouTube Keyword Suggestions",
+  "version": "1.0.0",
+  "description": "MCP server for YouTube Keyword Suggestions: YouTube autocomplete keyword research with A to Z expansion.",
+  "author": {
+    "name": "Mamba Labs",
+    "email": "labs@mambamindsetgrowth.com"
+  },
+  "homepage": "https://mambabuilt.com",
+  "repository": "https://github.com/mambalabsdev/mcp-youtube-keyword-suggestions",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "youtube",
+    "keyword-research",
+    "autocomplete",
+    "seo",
+    "video-seo",
+    "scraper",
+    "apify",
+    "mcp"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "youtube",
+    "keyword-research",
+    "autocomplete",
+    "seo",
+    "video-seo",
+    "scraper",
+    "apify",
+    "mcp"
+  ],
+  "mcpServers": ".mcp.json"
+}
