@@ -1,6 +1,6 @@
 {
   "name": "@mambalabsdev/mcp-youtube-keyword-suggestions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MCP server for YouTube Keyword Suggestions: YouTube autocomplete keyword research with A to Z expansion.",
   "type": "module",
   "bin": {
